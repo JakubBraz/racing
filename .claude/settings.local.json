@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:rapier.rs)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:docs.rs)",
+      "WebFetch(domain:crates.io)",
+      "Bash(python3:*)",
+      "Bash(node:*)",
+      "Bash(cargo check:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(cargo build:*)"
+    ]
+  }
+}
